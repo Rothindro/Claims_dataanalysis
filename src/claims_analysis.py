@@ -10,9 +10,9 @@ with st.container():
     st.image(image, use_column_width=True)
     image = Image.open('images/Problem_statement.png')
     st.image(image, use_column_width=True)
-    st.write("**_To see the original dataset, please download the table from **Claims Data** section or click here_*")
-    st.write("**_To see the analyzed dataset, please download the table from **Final Sheet** section or click here_*")
-    st.write("*_For a comprehensive overview of the project, please refer to this client ready **ppt** file_")
+    st.write("**_To see the original dataset, please download the table from **Claims Data** section or [click here](https://1drv.ms/x/c/b5af2d6d1ff645f7/Ecy0_vUQvANJoxcOJzBIUXUBY9U7eZ97roxlk2E1GIrYcQ?e=ZCr63t)_*")
+    st.write("**_To see the analyzed dataset, please download the table from **Final Sheet** section or [click here](https://1drv.ms/x/c/b5af2d6d1ff645f7/EV8JS0KxsIBKmFuN0VzMXdsBXC786KYcJz3v2jOsV2geFg?e=dPwzyz)_*")
+    st.write("*_For a comprehensive overview of the project, please refer to this client ready [ppt](https://1drv.ms/p/c/b5af2d6d1ff645f7/EcvDYZIM85dHqWGC-yqpB-gBdKcSUVWFcIThYWeVtcNEJA?e=vmlm8s) file_")
     st.write("######")
 with st.container():
     o_file_path = "data/G & J_Medicine Claims Data Case Study.xlsx"
@@ -239,4 +239,4 @@ with st.container():
         st.plotly_chart(fig)
     st.write("➡️Considering Dermatology and Nurse Practitioners specialty physicians, “Commercial Channel” seems to be most important as the number of claims is significantly high, therefore commercial channels has the highest reach compared to others")
 st.divider()
-st.write("*_For a comprehensive overview of the project, please refer to this client ready ppt file_")
+st.write("*_For a comprehensive overview of the project, please refer to this client ready [ppt](https://1drv.ms/p/c/b5af2d6d1ff645f7/EcvDYZIM85dHqWGC-yqpB-gBdKcSUVWFcIThYWeVtcNEJA?e=vmlm8s) file_")
