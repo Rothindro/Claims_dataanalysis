@@ -15,7 +15,7 @@ with st.container():
     st.write("*_For a comprehensive overview of the project, please refer to this client ready **ppt** file_")
     st.write("######")
 with st.container():
-    o_file_path = "D:\\PP\\Project1\\Original File\\G & J_Medicine Claims Data Case Study.xlsx"
+    o_file_path = "data/G & J_Medicine Claims Data Case Study.xlsx"
     xls = pd.ExcelFile(o_file_path, engine='openpyxl')
     sheet_names = xls.sheet_names
     st.subheader("Claims Data", divider='blue')
@@ -41,7 +41,7 @@ with st.container():
     st.write("_Referential Integrity_")
     st.write("######")
 with st.container():
-    f_file_path = "D:\\PP\\Project1\\Final File\\Source_file_G & J_Medicine_Claims_Data_Case_Study.xlsx"
+    f_file_path = "data/Source_file_G & J_Medicine_Claims_Data_Case_Study.xlsx"
     st.subheader("Final Sheet", divider='blue')
     st.write("######")
     df = pd.read_excel(f_file_path, engine='openpyxl')
@@ -127,7 +127,7 @@ with st.container():
     column1, column2 = st.columns([1.5, 1.5])
     with column1:
         st.write("Filtered and Aggregated DataFrame with Days Interval Between Diagnosis and Treatment")
-        d_file_path="D:\\PP\\Project1\\Final File\\Duration_of_Diagnosis_to_treatm.xlsx"
+        d_file_path="data/Duration_of_Diagnosis_to_treatm.xlsx"
         d_df = pd.read_excel(d_file_path, engine='openpyxl')
         st.write(d_df)
     with column2:
