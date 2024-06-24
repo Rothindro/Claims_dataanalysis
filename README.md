@@ -11,4 +11,4 @@ Questions:
 \**Answers of these questions are necessary for the client to understand the market dynamics and to create strategies for the effective launch of their product.*
 \**Streamlit was used to represent a short overview of the solution although a client-ready ppt file can be found on the app along with the raw file and the analyzed file, take a look at the mentioned file to have a clear perspective of the situation.*
 # Claims_dataanalysis
-This is a data analysis project built with Python (Numpy, Pandas, Plotly, and Streamlit); aimed to answer complex questions to create strategies for drug launch.
+This is a data analysis project built with Python (Pandas, Plotly, and Streamlit); aimed to answer complex questions to create strategies for drug launch.
