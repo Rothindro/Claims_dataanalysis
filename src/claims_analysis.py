@@ -6,9 +6,9 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 with st.container():
-    image = Image.open('D:\\PP\\Project1\\Poster.png')
+    image = Image.open('images/Poster.png')
     st.image(image, use_column_width=True)
-    image = Image.open('D:\\PP\\Project1\\Problem_statement.png')
+    image = Image.open('images/Problem_statement.png')
     st.image(image, use_column_width=True)
     st.write("**_To see the original dataset, please download the table from **Claims Data** section or click here_*")
     st.write("**_To see the analyzed dataset, please download the table from **Final Sheet** section or click here_*")
